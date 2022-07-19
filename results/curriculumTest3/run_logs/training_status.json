@@ -1,0 +1,50 @@
+{
+    "bullet_speed": {
+        "lesson_num": 4
+    },
+    "AvoidObstacles": {
+        "checkpoints": [
+            {
+                "steps": 6499979,
+                "file_path": "results\\curriculumTest3\\AvoidObstacles\\AvoidObstacles-6499979.onnx",
+                "reward": 0.8970714083739689,
+                "creation_time": 1648243653.9459233
+            },
+            {
+                "steps": 6999992,
+                "file_path": "results\\curriculumTest3\\AvoidObstacles\\AvoidObstacles-6999992.onnx",
+                "reward": 0.8639166454474131,
+                "creation_time": 1648244989.9046977
+            },
+            {
+                "steps": 7499953,
+                "file_path": "results\\curriculumTest3\\AvoidObstacles\\AvoidObstacles-7499953.onnx",
+                "reward": 0.9166388610998789,
+                "creation_time": 1648246324.5951507
+            },
+            {
+                "steps": 7999928,
+                "file_path": "results\\curriculumTest3\\AvoidObstacles\\AvoidObstacles-7999928.onnx",
+                "reward": 0.970966641108195,
+                "creation_time": 1648247660.0838091
+            },
+            {
+                "steps": 8392119,
+                "file_path": "results\\curriculumTest3\\AvoidObstacles\\AvoidObstacles-8392119.onnx",
+                "reward": 0.9734999802377489,
+                "creation_time": 1648248741.3154337
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8392119,
+            "file_path": "results\\curriculumTest3\\AvoidObstacles.onnx",
+            "reward": 0.9734999802377489,
+            "creation_time": 1648248741.3154337
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

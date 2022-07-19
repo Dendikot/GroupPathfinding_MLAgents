@@ -1,0 +1,23 @@
+{
+    "AvoidProjectile": {
+        "checkpoints": [
+            {
+                "steps": 106943,
+                "file_path": "results\\Labyrinth4\\AvoidProjectile\\AvoidProjectile-106943.onnx",
+                "reward": null,
+                "creation_time": 1647891479.0138779
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 106943,
+            "file_path": "results\\Labyrinth4\\AvoidProjectile.onnx",
+            "reward": null,
+            "creation_time": 1647891479.0138779
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

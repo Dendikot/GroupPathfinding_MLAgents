@@ -1,0 +1,89 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1649165531",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Python39\\Scripts\\mlagents-learn Config/AvoidProjectilesSimple.yaml --run-id=SimpleAvoid2 --force",
+        "mlagents_version": "0.25.0",
+        "mlagents_envs_version": "0.25.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1649165564"
+    },
+    "total": 32.980317500000005,
+    "count": 1,
+    "self": 0.013151800000002822,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10899520000000007,
+            "count": 1,
+            "self": 0.10899520000000007
+        },
+        "TrainerController.start_learning": {
+            "total": 32.8581705,
+            "count": 1,
+            "self": 0.0001412000000016178,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 17.736394699999998,
+                    "count": 1,
+                    "self": 13.5528967,
+                    "children": {
+                        "demo_to_buffer": {
+                            "total": 4.183497999999998,
+                            "count": 1,
+                            "self": 5.539999999548684e-05,
+                            "children": {
+                                "load_demonstration": {
+                                    "total": 1.9620110000000004,
+                                    "count": 1,
+                                    "self": 1.959494900000001,
+                                    "children": {
+                                        "read_file": {
+                                            "total": 0.002516099999999355,
+                                            "count": 1,
+                                            "self": 0.002516099999999355
+                                        }
+                                    }
+                                },
+                                "make_demo_buffer": {
+                                    "total": 2.2214316000000025,
+                                    "count": 1,
+                                    "self": 0.32512669999990607,
+                                    "children": {
+                                        "steps_from_proto": {
+                                            "total": 1.8963049000000964,
+                                            "count": 8694,
+                                            "self": 0.9670995999999832,
+                                            "children": {
+                                                "_process_rank_one_or_two_observation": {
+                                                    "total": 0.9292053000001133,
+                                                    "count": 17388,
+                                                    "self": 0.9292053000001133
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 15.1216346,
+                    "count": 1,
+                    "self": 15.1200501,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.0015844999999998777,
+                            "count": 1,
+                            "self": 0.0015844999999998777
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

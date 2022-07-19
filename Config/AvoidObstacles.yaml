@@ -1,0 +1,79 @@
+behaviors:
+  AvoidObstacles:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 512 # how many education you receive for one iteration
+      buffer_size: 4096 # how many you store in buffer
+      learning_rate: 1.0e-4
+      beta: 1.0e-4
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 4
+      learning_rate_schedule: linear
+    network_settings:
+      use_recurrent: true
+      sequence_length: 64
+      memory_size: 256
+      normalize: false
+      hidden_units: 256
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    max_steps: 500000000
+    time_horizon: 128
+    summary_freq: 10000
+environment_parameters:
+  bullet_speed:
+    curriculum:
+      - name: Lesson0 # This is the start of the second lesson
+        completion_criteria:
+          measure: reward
+          behavior: AvoidObstacles
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 0.2
+        value:
+          sampler_type: uniform
+          sampler_parameters:
+            min_value: 0
+            max_value: 0
+      - name: Lesson1
+        completion_criteria:
+          measure: reward
+          behavior: AvoidObstacles
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 0.4
+        value:
+          sampler_type: uniform
+          sampler_parameters:
+            min_value: 500
+            max_value: 1000
+      - name: Lesson2
+        completion_criteria:
+          measure: reward
+          behavior: AvoidObstacles
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 0.6
+        value:
+          sampler_type: uniform
+          sampler_parameters:
+            min_value: 1000
+            max_value: 2000
+      - name: Lesson3
+        completion_criteria:
+          measure: reward
+          behavior: AvoidObstacles
+          signal_smoothing: true
+          min_lesson_length: 100
+          threshold: 0.8
+        value:
+          sampler_type: uniform
+          sampler_parameters:
+            min_value: 2000
+            max_value: 3000
+      - name: Lesson4
+        value: 2500

@@ -1,0 +1,23 @@
+{
+    "AvoidProjectile": {
+        "checkpoints": [
+            {
+                "steps": 182680,
+                "file_path": "results\\AvoidTest2\\AvoidProjectile\\AvoidProjectile-182680.onnx",
+                "reward": null,
+                "creation_time": 1647803603.322596
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 182680,
+            "file_path": "results\\AvoidTest2\\AvoidProjectile.onnx",
+            "reward": null,
+            "creation_time": 1647803603.322596
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

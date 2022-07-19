@@ -1,0 +1,44 @@
+{
+    "bullet_speed": {
+        "lesson_num": 4
+    },
+    "AvoidObstacles": {
+        "checkpoints": [
+            {
+                "steps": 499911,
+                "file_path": "results\\curriculumTest2\\AvoidObstacles\\AvoidObstacles-499911.onnx",
+                "reward": 0.8184999649723371,
+                "creation_time": 1648220738.2505653
+            },
+            {
+                "steps": 999976,
+                "file_path": "results\\curriculumTest2\\AvoidObstacles\\AvoidObstacles-999976.onnx",
+                "reward": 0.614428556391171,
+                "creation_time": 1648222157.5800965
+            },
+            {
+                "steps": 1499954,
+                "file_path": "results\\curriculumTest2\\AvoidObstacles\\AvoidObstacles-1499954.onnx",
+                "reward": 0.1761111066573196,
+                "creation_time": 1648223578.154857
+            },
+            {
+                "steps": 1825382,
+                "file_path": "results\\curriculumTest2\\AvoidObstacles\\AvoidObstacles-1825382.onnx",
+                "reward": 0.5602708285053571,
+                "creation_time": 1648224697.6821089
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1825382,
+            "file_path": "results\\curriculumTest2\\AvoidObstacles.onnx",
+            "reward": 0.5602708285053571,
+            "creation_time": 1648224697.6821089
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

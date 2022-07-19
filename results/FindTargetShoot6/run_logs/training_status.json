@@ -1,0 +1,29 @@
+{
+    "AvoidObstacles": {
+        "checkpoints": [
+            {
+                "steps": 499924,
+                "file_path": "results\\FindTargetShoot6\\AvoidObstacles\\AvoidObstacles-499924.onnx",
+                "reward": -0.9530000388622284,
+                "creation_time": 1648075539.0194674
+            },
+            {
+                "steps": 643451,
+                "file_path": "results\\FindTargetShoot6\\AvoidObstacles\\AvoidObstacles-643451.onnx",
+                "reward": 1.00222913424174,
+                "creation_time": 1648075935.5786452
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 643451,
+            "file_path": "results\\FindTargetShoot6\\AvoidObstacles.onnx",
+            "reward": 1.00222913424174,
+            "creation_time": 1648075935.5786452
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

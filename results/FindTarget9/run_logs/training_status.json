@@ -1,0 +1,41 @@
+{
+    "AvoidProjectile": {
+        "checkpoints": [
+            {
+                "steps": 499975,
+                "file_path": "results\\FindTarget9\\AvoidProjectile\\AvoidProjectile-499975.onnx",
+                "reward": null,
+                "creation_time": 1647962893.7491527
+            },
+            {
+                "steps": 999992,
+                "file_path": "results\\FindTarget9\\AvoidProjectile\\AvoidProjectile-999992.onnx",
+                "reward": null,
+                "creation_time": 1647964073.2048829
+            },
+            {
+                "steps": 1499996,
+                "file_path": "results\\FindTarget9\\AvoidProjectile\\AvoidProjectile-1499996.onnx",
+                "reward": null,
+                "creation_time": 1647965253.5798864
+            },
+            {
+                "steps": 1503210,
+                "file_path": "results\\FindTarget9\\AvoidProjectile\\AvoidProjectile-1503210.onnx",
+                "reward": null,
+                "creation_time": 1647965261.3685913
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1503210,
+            "file_path": "results\\FindTarget9\\AvoidProjectile.onnx",
+            "reward": null,
+            "creation_time": 1647965261.3685913
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

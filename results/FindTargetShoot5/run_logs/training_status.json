@@ -1,0 +1,47 @@
+{
+    "AvoidObstacles": {
+        "checkpoints": [
+            {
+                "steps": 3999968,
+                "file_path": "results\\FindTargetShoot5\\AvoidObstacles\\AvoidObstacles-3999968.onnx",
+                "reward": -1.0000000484287739,
+                "creation_time": 1648067813.7581298
+            },
+            {
+                "steps": 4499932,
+                "file_path": "results\\FindTargetShoot5\\AvoidObstacles\\AvoidObstacles-4499932.onnx",
+                "reward": null,
+                "creation_time": 1648069061.0277996
+            },
+            {
+                "steps": 4999969,
+                "file_path": "results\\FindTargetShoot5\\AvoidObstacles\\AvoidObstacles-4999969.onnx",
+                "reward": -0.19775004126131535,
+                "creation_time": 1648070309.422856
+            },
+            {
+                "steps": 5499889,
+                "file_path": "results\\FindTargetShoot5\\AvoidObstacles\\AvoidObstacles-5499889.onnx",
+                "reward": -0.9780000373721123,
+                "creation_time": 1648071557.0013032
+            },
+            {
+                "steps": 5588344,
+                "file_path": "results\\FindTargetShoot5\\AvoidObstacles\\AvoidObstacles-5588344.onnx",
+                "reward": null,
+                "creation_time": 1648071778.633621
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5588344,
+            "file_path": "results\\FindTargetShoot5\\AvoidObstacles.onnx",
+            "reward": null,
+            "creation_time": 1648071778.633621
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.25.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
